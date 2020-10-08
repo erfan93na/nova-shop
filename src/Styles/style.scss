@@ -1,0 +1,119 @@
+
+
+@import "vars";
+* {
+  box-sizing: border-box;
+  border: 1px none green
+}
+
+html {
+
+}
+
+body {
+  font-family: "Poppins",sans-serif;
+  margin: 0px;
+  padding: 0;
+}
+a{text-decoration: none;
+  transition:color 0.5s}
+header a {
+text-decoration: none;
+  color:white;
+}
+
+header a:hover{
+  color: #FFB68C;
+}
+
+
+.grid-container {
+
+  display:grid;
+  grid-template-rows: 15vh 1fr 15vh;
+  grid-template-areas: "header"
+  "main"
+  "footer";
+}
+header {
+  font-size:3rem;
+  display: flex;
+  align-items: center;
+}
+header, footer {
+  background-color: $bg1;
+  color:$color1
+}
+
+footer {
+  @include flex
+}
+
+
+.content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.main {
+  flex:3 60%;
+}
+
+.sidebar {
+  flex: 1 30%;
+}
+.products {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  padding: 1.5rem;
+}
+.product-row {
+  width: 32%;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  @include bgtransition
+}
+.product-row:hover {
+  background-color: antiquewhite ;
+}
+.product-row img {
+  width:100%;
+  height:auto;
+}
+
+.product-row a {
+  color:black;
+}
+.product-row p:nth-child(2){
+  font-weight: bolder;
+  font-size:1.1rem
+  ;padding: 0;
+@include bgtransition}
+.product-row p:nth-child(2):hover{
+  color:blueviolet;
+}
+.product-row p:nth-child(3) {
+color: midnightblue  ;
+}
+
+.product-row button{
+  width: 100%;
+  padding: 1.3rem;
+  background-color: black;
+  color: white;
+  font-size:1.2rem;
+  font-family: "Poppins";
+ @include bgtransition;
+  border: none;
+
+}
+
+.product-row button:hover {
+background-color: #FFB68C  ;
+  color: black;
+}
