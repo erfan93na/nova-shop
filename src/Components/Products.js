@@ -7,7 +7,7 @@ class Products extends React.Component {
     render() {
 let products= this.props.products;
         return (
-    <ul className="products">{products.map(product=><Product product={product}/>)}</ul>
+    <ul className="products">{products.map(product=><Product  product={product}/>)}</ul>
         );
     }
 }

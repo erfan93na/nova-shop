@@ -30,14 +30,15 @@ header a:hover{
 .grid-container {
 
   display:grid;
-  grid-template-rows: 15vh 1fr 15vh;
+  grid-template-rows: 10vh 1fr 15vh;
   grid-template-areas: "header"
   "main"
   "footer";
 }
 header {
-  font-size:3rem;
+  font-size:2rem;
   display: flex;
+  padding: 0 2rem;
   align-items: center;
 }
 header, footer {
@@ -58,6 +59,7 @@ footer {
 
 .main {
   flex:3 60%;
+  padding-left: 2rem;
 }
 
 .sidebar {
@@ -65,12 +67,12 @@ footer {
 }
 .products {
   margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   list-style: none;
-  padding: 1.5rem;
 }
 .product-row {
   width: 32%;
@@ -103,7 +105,7 @@ color: midnightblue  ;
 
 .product-row button{
   width: 100%;
-  padding: 1.3rem;
+  padding: 1rem;
   background-color: black;
   color: white;
   font-size:1.2rem;
@@ -116,4 +118,16 @@ color: midnightblue  ;
 .product-row button:hover {
 background-color: #FFB68C  ;
   color: black;
+}
+
+.filters {
+  padding:1.0rem 0;
+  border-bottom: 1px solid darkgoldenrod ;
+  @include flexrow;
+  margin-bottom: 1rem;
+}
+
+select,option {margin-left: 0.4rem;
+  padding: 0.5rem;
+  border-style: solid;
 }

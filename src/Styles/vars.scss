@@ -12,3 +12,8 @@ $colorhover:#FFB68C ;
   transition: background-color 0.5s, color 0.5s;
 
 }
+
+@mixin flexrow {
+  display: flex;flex-wrap: wrap;flex-direction: row;
+  align-items: center;justify-content: space-between;
+}
