@@ -2,6 +2,7 @@ import React from "react";
 import './Styles/style.scss';
 import data from "./data";
 import Products from "./Components/Products";
+import Filters from "./Components/Filters";
 
 
 class App extends React.Component {
@@ -17,7 +18,9 @@ render() {
                       <a href="#">Nova Shop</a>
                 </header>
                 <main><div className="content">
-                    <div className="main"><Products products={this.state.products}/></div>
+                    <div className="main">
+                        <Filters/>
+                        <Products products={this.state.products}/></div>
                     <div className="sidebar"></div>
                 </div>
                 </main>
