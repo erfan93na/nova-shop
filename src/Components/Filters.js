@@ -6,11 +6,11 @@ class Filters extends Component {
         const order=["Newest","Highest","Lowest"]
         return (
             <div className="filters">
-               <span>{this.props.count} Products</span>
+               <span>{this.props.count} Items Available</span>
                 <div>Order: <select onChange={this.props.handleOrderChange}>
                     {order.map(option=><option value={option.toLowerCase()}>{option}</option>)}
                 </select> </div>
-                <div>Order: <select onChange={this.props.handleSizeChange}>
+                <div>Choose Size: <select onChange={this.props.handleSizeChange}>
                     {sizes.map(option=><option value={option==="All"?"":option.toLowerCase()}>{option}</option>)}
                 </select> </div>
             </div>

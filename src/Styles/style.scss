@@ -71,13 +71,14 @@ footer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: start;
+  column-gap: 1.2rem;
+  row-gap: 1.5rem;
   list-style: none;
 }
 .product-row {
   width: 32%;
   text-align: center;
-  margin-bottom: 1.5rem;
   @include bgtransition
 }
 .product-row:hover {
