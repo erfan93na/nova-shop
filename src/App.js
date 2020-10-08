@@ -18,17 +18,18 @@ componentDidUpdate(prevProps, prevState, snapshot) {console.log(this.state)
 }
 
     handleOrderChange(e){
-        this.setState({sort:e.target.value})
+          const value=e.target.value
+        this.setState({sort:value,products:this.state.products.sort(function(a,b){return (value==="highest")?(b.price-a.price):
+                (value=="lowest")?(a.price-b.price):a["_id"].slice(-1)-b["_id"].slice(-1)})})
 
     }
     handleSizeChange(e){
-        this.setState({size:e.target.value})
+        const value=e.target.value
+
+        this.setState({size:value,products:data.products.filter((item )=>(value==="")?{}:item["availableSizes"].indexOf(value.toUpperCase())!=-1)})
     }
 render() {
-          const sort=this.state.sort; const size=this.state.size
-
-   let products=data.products.sort(function(a,b){return (sort==="highest")?(b.price-a.price):
-        (sort=="lowest")?(a.price-b.price):data.products}).filter((item,ind,array)=>size===""?{}:item["availableSizes"].indexOf(size.toUpperCase())!=-1)
+const products=this.state.products
     return (
           <div className="grid-container">
                 <header>
