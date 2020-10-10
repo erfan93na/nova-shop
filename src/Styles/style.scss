@@ -28,7 +28,6 @@ header a:hover{
 
 
 .grid-container {
-
   display:grid;
   grid-template-rows: 10vh 1fr 15vh;
   grid-template-areas: "header"
@@ -63,7 +62,10 @@ footer {
 }
 
 .sidebar {
+  position: relative;
   flex: 1 30%;
+  margin-left: 2rem;
+  padding: 1rem;
 }
 .products {
   margin: 0;
@@ -82,7 +84,7 @@ footer {
   @include bgtransition
 }
 .product-row:hover {
-  background-color: antiquewhite ;
+  background-color: #DADBDD  ;
 }
 .product-row img {
   width:100%;
@@ -96,10 +98,9 @@ footer {
   font-weight: bolder;
   font-size:1.1rem
   ;padding: 0;
+  height: 2em;
 @include bgtransition}
-.product-row p:nth-child(2):hover{
-  color:blueviolet;
-}
+
 .product-row p:nth-child(3) {
 color: midnightblue  ;
 }
@@ -117,7 +118,7 @@ color: midnightblue  ;
 }
 
 .product-row button:hover {
-background-color: #FFB68C  ;
+background-color: #DAB2CD   ;
   color: black;
 }
 
@@ -131,4 +132,74 @@ background-color: #FFB68C  ;
 select,option {margin-left: 0.4rem;
   padding: 0.5rem;
   border-style: solid;
+}
+.mainCart {
+  *{border-radius: 10px;}
+  strong{
+    display: block;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    text-align: center;
+    background-color: #DAB2CD ;
+  }
+  top:1rem;
+  position: sticky;
+  height: 70vh;overflow: auto;
+}
+.cartList {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.0rem;
+  margin: 0;
+  margin-bottom: 1rem;
+  padding: 0;
+}
+
+.cartItem {
+  margin: 0;
+  background-color: #DADBDD     ;
+  padding: 1rem;
+}
+.itemCount {
+  font-size: 0.8rem;
+  @include flexrow
+}
+
+.itemCount > div {
+  @include flexrow;
+  width: 30%;
+}
+.itemCount button {
+font-weight: bold;
+  border-radius:50%;
+  height: 1.5rem;
+  width:    1.5rem;
+  cursor: pointer;
+;
+}
+
+.itemCount {
+  font-weight: bold;
+  button:first-child:hover{background-color: greenyellow}
+  button:nth-child(2):hover{background-color: orange}
+
+  button:last-child:hover{background-color: red}
+
+}
+
+.checkoutbtn {
+  text-align: center;
+  width: 100%;
+font-family: Poppins;
+  line-height: 3rem;
+  font-size: 1rem;
+  background-color: #93CD83 ;
+  @include bgtransition;
+  font-weight: bold;
+}
+
+.checkoutbtn:hover {
+  background-color: #499F32 ;
+  color: white;
 }
