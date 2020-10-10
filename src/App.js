@@ -1,51 +1,52 @@
-import React from "react";
+import React,{useState,useReducer} from "react";
 import './Styles/style.scss';
 import data from "./data";
 import Products from "./Components/Products";
 import Filters from "./Components/Filters";
+import Cart from "./Components/Cart";
+import {cartReducer} from "./Components/cartReducer";
+
+export const CartContext=React.createContext()
+
+function App  () {
+const [cartItems,dispatch]=useReducer(cartReducer,[])
+ const [size,setSize]=useState("");
+    const [sort,setSort]=useState("");
 
 
-class App extends React.Component {
-      constructor() {
-            super();
-            this.state={products:data.products,size:"",sort:""};
-            this.handleOrderChange=this.handleOrderChange.bind(this)
-          this.handleSizeChange=this.handleSizeChange.bind(this)
-
-
-      }
-componentDidUpdate(prevProps, prevState, snapshot) {console.log(this.state)
-}
-
-    handleOrderChange(e){
-          const value=e.target.value
-        this.setState({sort:value,products:this.state.products.sort(function(a,b){return (value==="highest")?(b.price-a.price):
-                (value=="lowest")?(a.price-b.price):a["_id"].slice(-1)-b["_id"].slice(-1)})})
+    const handleOrderChange=function(e){
+          const sort=e.target.value
+        setSort(sort)
 
     }
-    handleSizeChange(e){
-        const value=e.target.value
+  const  handleSizeChange=function(e){
+        const size=e.target.value
 
-        this.setState({size:value,products:data.products.filter((item )=>(value==="")?{}:item["availableSizes"].indexOf(value.toUpperCase())!=-1)})
+        setSize(size)
     }
-render() {
-const products=this.state.products
+
+    const products=data.products
+        .filter((item )=>(size==="")?{}:item["availableSizes"].indexOf(size.toUpperCase())!=-1)
+        .sort(function(a,b){return (sort==="highest")?(b.price-a.price):
+            (sort=="lowest")?(a.price-b.price):a["_id"].slice(-1)-b["_id"].slice(-1)})
     return (
           <div className="grid-container">
                 <header>
                       <a href="#">Nova Shop</a>
                 </header>
-                <main><div className="content">
+              <CartContext.Provider value={[cartItems,dispatch]}>  <main><div className="content">
                     <div className="main">
-                        <Filters count={products.length} handleOrderChange={this.handleOrderChange} handleSizeChange={this.handleSizeChange}/>
+                        <Filters count={products.length} handleOrderChange={handleOrderChange} handleSizeChange={handleSizeChange}/>
                         <Products products={products}/></div>
-                    <div className="sidebar"></div>
+                    <div className="sidebar">
+                        <Cart/>
+                    </div>
                 </div>
-                </main>
-                <footer>Built with React & Redux.</footer>
+              </main></CartContext.Provider>
+                <footer>Built with React</footer>
           </div>
       )
-}
+
 
 
 }
