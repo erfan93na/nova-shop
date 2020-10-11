@@ -27,7 +27,7 @@ setFname(e.target.value)
 const handleSubmit=function (e) {
 e.preventDefault();
 setContact({fname,address,email,info})
-        props.history.push("/thanks")
+        props.history.push("/nova-shop/thanks")
 
 }
         return (<>
