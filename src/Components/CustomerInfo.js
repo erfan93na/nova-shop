@@ -28,6 +28,7 @@ const handleSubmit=function (e) {
 e.preventDefault();
 setContact({fname,address,email,info})
         props.history.push("/nova-shop/thanks")
+        console.log(props.history)
 
 }
         return (<>
