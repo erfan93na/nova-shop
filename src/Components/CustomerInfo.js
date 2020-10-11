@@ -31,7 +31,7 @@ setContact({fname,address,email,info})
 
 }
         return (<>
-            <Route exact path="/">
+            <Route exact path="/nova-shop">
                     <form className="customerInfo" onSubmit={handleSubmit}>
                             <input type="text" name="fullname" placeholder="Enter Full Name" required onChange={handleFn} />
                             <input type="text" name="address" placeholder="Enter Address" required onChange={handleAdd}  />
@@ -40,7 +40,7 @@ setContact({fname,address,email,info})
                             <input type="Submit"/><button onClick={props.closeModal}>Cancel</button>
                     </form>
             </Route>
-                    <Route path="/thanks">
+                    <Route path="/nova-shop/thanks">
                             <Receipt/>
                     </Route>
 </>
