@@ -24,13 +24,13 @@ dispatch({type:"Increment",payload:item})
         return (
             <StyleRoot>
             <li className="cartItem" style={styles.fadeInLeft}>
-                <div style={{"fontWeight":"bold"}}>{item.title}</div>
+          <div className="cartItemLeft">      <div style={{"fontWeight":"bold"}}>{item.title}</div>
                 <div>{item.price} $</div>
                 <div className="itemCount">Count: {item.count}<div> <button onClick={handleAdd}>+</button>
                         <button onClick={handleSub}>-</button>
-                        <button onClick={handleRemove}>X</button></div></div>
+                    <button onClick={handleRemove}>X</button></div></div></div>
 
-
+<div className="cartItemRight"><img src={item.image}/></div>
 
             </li></StyleRoot>
         );

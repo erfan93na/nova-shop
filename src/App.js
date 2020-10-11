@@ -5,7 +5,6 @@ import Products from "./Components/Products";
 import Filters from "./Components/Filters";
 import Cart from "./Components/Cart";
 import {cartReducer} from "./Components/cartReducer";
-
 export const CartContext=React.createContext()
 
 function App  () {
@@ -24,6 +23,8 @@ const [cartItems,dispatch]=useReducer(cartReducer,[])
 
         setSize(size)
     }
+
+
 
     const products=data.products
         .filter((item )=>(size==="")?{}:item["availableSizes"].indexOf(size.toUpperCase())!=-1)
