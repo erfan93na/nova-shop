@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1208deed-62a6-4a09-b152-1780f4248043" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="HTTP Request" />
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="gh-pages" />
+        <entry key="$PROJECT_DIR$/node_modules/.cache/gh-pages/github.com!erfan93na!nova-shop.git" value="gh-pages" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\WebstormProjects\newr\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iMUZV8RF9y5gQzJwrROfM9T0Z1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WebstormProjects\newr\src\Styles" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.t.js">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="CartContext.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/CartContext.js" working-dir="$PROJECT_DIR$/src">
+      <method v="2" />
+    </configuration>
+    <configuration name="l.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/public/l.js" working-dir="$PROJECT_DIR$/public">
+      <method v="2" />
+    </configuration>
+    <configuration name="t.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/Components/t.js" working-dir="$PROJECT_DIR$/src/Components">
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+        <item itemvalue="Node.js.t.js" />
+        <item itemvalue="Node.js.l.js" />
+        <item itemvalue="Node.js.CartContext.js" />
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1208deed-62a6-4a09-b152-1780f4248043" name="Default Changelist" comment="" />
+      <created>1601717009313</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601717009313</updated>
+      <workItem from="1601717014342" duration="530000" />
+      <workItem from="1601717769696" duration="12434000" />
+      <workItem from="1601924240555" duration="4561000" />
+      <workItem from="1602050646900" duration="2161000" />
+      <workItem from="1602133551706" duration="55259000" />
+      <workItem from="1602273648206" duration="46998000" />
+      <workItem from="1602400965610" duration="913000" />
+      <workItem from="1602402209157" duration="6182000" />
+      <workItem from="1602423567048" duration="391000" />
+      <workItem from="1602423982500" duration="2951000" />
+      <workItem from="1602430068766" duration="775000" />
+      <workItem from="1602430849421" duration="416000" />
+      <workItem from="1602431478831" duration="2579000" />
+      <workItem from="1602436918304" duration="30990000" />
+    </task>
+    <task id="LOCAL‎۰۰۰۰۱" summary="first">
+      <created>1602148047786</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۱" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۱" />
+      <updated>1602148047786</updated>
+    </task>
+    <task id="LOCAL‎۰۰۰۰۲" summary="first">
+      <created>1602149882189</created>
+      <option name="number" value="LOCAL‎۰۰۰۰۲" />
+      <option name="presentableId" value="LOCAL‎۰۰۰۰۲" />
+      <updated>1602149882189</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/node_modules/wait-for-expect/lib/toBeInRangeMatcher.d.js" />
+        <option value="$PROJECT_DIR$/node_modules/wait-for-expect/lib/waitForExpect.spec.d.js" />
+        <option value="$PROJECT_DIR$/node_modules/wait-for-expect/lib/index.d.js" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_TABS">
+      <set>
+        <option value="1" />
+      </set>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="first" />
+    <option name="LAST_COMMIT_MESSAGE" value="first" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="254" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602163374786">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="254" y="84" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860@0.0.1600.860" timestamp="1602163374786" />
+    <state x="608" y="419" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601758200125">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="608" y="419" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1601758200125" />
+    <state x="530" y="176" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602141840110">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="530" y="176" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1602141840110" />
+    <state x="625" y="171" key="#l.js" timestamp="1602162712060">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="625" y="171" key="#l.js/0.0.1600.860@0.0.1600.860" timestamp="1602162712060" />
+    <state x="425" y="25" key="CommitChangelistDialog2" timestamp="1602149881064">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="425" y="25" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1602149881064" />
+    <state x="654" y="205" key="FileChooserDialogImpl" timestamp="1602434075739">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="654" y="205" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1602434075739" />
+    <state width="477" height="214" key="Git.Branch.Popup" timestamp="1602519435536">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="477" height="214" key="Git.Branch.Popup/0.0.1600.860@0.0.1600.860" timestamp="1602519435536" />
+    <state width="1578" height="243" key="GridCell.Tab.0.bottom" timestamp="1602400957786">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1578" height="243" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1602400957786" />
+    <state width="1578" height="243" key="GridCell.Tab.0.center" timestamp="1602400957786">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1578" height="243" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1602400957786" />
+    <state width="1578" height="243" key="GridCell.Tab.0.left" timestamp="1602400957785">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1578" height="243" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1602400957785" />
+    <state width="1578" height="243" key="GridCell.Tab.0.right" timestamp="1602400957786">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state width="1578" height="243" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1602400957786" />
+    <state x="512" y="145" width="800" height="570" key="MultipleFileMergeDialog" timestamp="1602400816906">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="512" y="145" width="800" height="570" key="MultipleFileMergeDialog/0.0.1600.860@0.0.1600.860" timestamp="1602400816906" />
+    <state x="17" y="62" key="SettingsEditor" timestamp="1602338216443">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="17" y="62" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1602338216443" />
+    <state x="92" y="92" width="1416" height="676" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1602403107879">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="92" y="92" width="1416" height="676" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.1600.860@0.0.1600.860" timestamp="1602403107879" />
+    <state x="376" y="510" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602518906729">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="376" y="510" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860@0.0.1600.860" timestamp="1602518906729" />
+    <state x="456" y="72" width="670" height="676" key="search.everywhere.popup" timestamp="1602396663591">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="456" y="72" width="670" height="676" key="search.everywhere.popup/0.0.1600.860@0.0.1600.860" timestamp="1602396663591" />
+  </component>
+</project>
