@@ -22,7 +22,7 @@ export function CheckoutModal (props){
         }}
 
         return (
-            <Modal style={customStyles} isOpen={props.checkOpen}>
+            <Modal isOpen={props.checkOpen} id="modal">
                 <CustomerInfoContext.Provider value={[contact,setContact]}>
                     <button style={{position:"absolute",top:"0.5rem",right:"0.5rem"}} onClick={props.closeModal}>X</button>
                     <Router>

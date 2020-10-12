@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-
+<base href="/">
       <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="Erfan">
@@ -19,20 +19,35 @@
       <style>
           .mainc {
               height: 80vh;
-              width: 100vw;
-              background-size: cover;
-              background-repeat: no-repeat;
+              width: 100%;
+
           }
           #landing{
               background-image:url("images/landing.jpg");
+              background-size: contain;background-position: center;
+
 
           }
           #about {
               background-image:url("images/about.jpg");
-
+              background-size: cover;
+              background-repeat: no-repeat;
           }
           #contact {
               background-image: url("images/contact.jpg");
+              background-size: cover;
+              background-repeat: no-repeat;
+          }
+          @media screen and (max-width: 1500px){
+              .mainc {
+                  height: 80vh;
+                  width: 100%;
+
+              }
+              #landing{
+                  background-image:url("images/landing.jpg");
+              }
+
           }
       </style>
   </head>
@@ -49,5 +64,6 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
   </body>
 </html>

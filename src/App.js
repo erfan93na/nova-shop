@@ -37,13 +37,17 @@ function App() {
             return (sort === "highest") ? (b.price - a.price) :
                 (sort == "lowest") ? (a.price - b.price) : a["_id"].slice(-1) - b["_id"].slice(-1)
         })
+
+
+
+
     return (<Router>
             <div className="grid-container">
                 <Header/>
                 <CartContext.Provider value={[cartItems, dispatch]}>
                     <main>
                         <div className="content">
-                                <Route exact path="/nova-shop"><Link to="/nova-shop/sales">
+                                <Route exact path="/nova-shop"><Link to="/nova-shop/sales" style={{width:"100%"}}>
                                     <div id="landing" className="mainc"></div>
                                 </Link></Route>
                                 <Route  exact path="/nova-shop/sales">
@@ -51,12 +55,13 @@ function App() {
                                         <Filters count={products.length} handleOrderChange={handleOrderChange}
                                                  handleSizeChange={handleSizeChange}/>
                                         <Products products={products}/></div>
-                                    <div className="sidebar">
+                                    <div className="sidebar" id="side">
                                         <Cart/>
                                     </div>
                                 </Route>
                                 <Route exact  path="/nova-shop/about"><About/></Route>
                             <Route exact  path="/nova-shop/contact"><Contact/></Route>
+                            <Route exact path="/nova-shop/mobilecart"><Cart/></Route>
 
                         </div>
                     </main>
