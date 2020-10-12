@@ -9,7 +9,6 @@ export const CustomerInfoContext=React.createContext();
 
 export function CheckoutModal (props){
     const [contact,setContact]=useState({})
-    console.log(contact)
     const customStyles={content:{
         width:"40%",
         height:"70%",
