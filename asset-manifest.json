@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/nova-shop/static/css/main.a159976b.chunk.css",
-    "main.js": "/nova-shop/static/js/main.891fb4fb.chunk.js",
-    "main.js.map": "/nova-shop/static/js/main.891fb4fb.chunk.js.map",
+    "main.css": "/nova-shop/static/css/main.6a449934.chunk.css",
+    "main.js": "/nova-shop/static/js/main.4198c8f9.chunk.js",
+    "main.js.map": "/nova-shop/static/js/main.4198c8f9.chunk.js.map",
     "runtime-main.js": "/nova-shop/static/js/runtime-main.d58ee296.js",
     "runtime-main.js.map": "/nova-shop/static/js/runtime-main.d58ee296.js.map",
-    "static/js/2.c3cb2197.chunk.js": "/nova-shop/static/js/2.c3cb2197.chunk.js",
-    "static/js/2.c3cb2197.chunk.js.map": "/nova-shop/static/js/2.c3cb2197.chunk.js.map",
+    "static/js/2.12caed1e.chunk.js": "/nova-shop/static/js/2.12caed1e.chunk.js",
+    "static/js/2.12caed1e.chunk.js.map": "/nova-shop/static/js/2.12caed1e.chunk.js.map",
     "index.html": "/nova-shop/index.html",
-    "precache-manifest.0bc84b4dcac4c8fa755f242f4e6fc678.js": "/nova-shop/precache-manifest.0bc84b4dcac4c8fa755f242f4e6fc678.js",
+    "precache-manifest.230cf2f9056566663e4605cbdcbc8974.js": "/nova-shop/precache-manifest.230cf2f9056566663e4605cbdcbc8974.js",
     "service-worker.js": "/nova-shop/service-worker.js",
-    "static/css/main.a159976b.chunk.css.map": "/nova-shop/static/css/main.a159976b.chunk.css.map",
-    "static/js/2.c3cb2197.chunk.js.LICENSE.txt": "/nova-shop/static/js/2.c3cb2197.chunk.js.LICENSE.txt"
+    "static/css/main.6a449934.chunk.css.map": "/nova-shop/static/css/main.6a449934.chunk.css.map",
+    "static/js/2.12caed1e.chunk.js.LICENSE.txt": "/nova-shop/static/js/2.12caed1e.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d58ee296.js",
-    "static/js/2.c3cb2197.chunk.js",
-    "static/css/main.a159976b.chunk.css",
-    "static/js/main.891fb4fb.chunk.js"
+    "static/js/2.12caed1e.chunk.js",
+    "static/css/main.6a449934.chunk.css",
+    "static/js/main.4198c8f9.chunk.js"
   ]
 }
